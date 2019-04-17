@@ -23,4 +23,9 @@ public class AdminController {
         }
 
     }
+    
+    @RequestMapping("regist")
+    public void regist(){
+        System.out.println("Hello World");
+    }
 }
